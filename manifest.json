@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "1-Click By Jyoti",
+    "description": "With 1-Click you can easily acces your social media web page without leaving your current tab. Easy to use. Save yourself from typing the urls again and again.",
+    "version": "1.0.0",
+    "options_page": "./options.html", 
+    "icon": "mylogo_128.png",
+    "browser_action": {"default_popup": "pop_up.html",
+        "default_icon": "mylogo_36.png"},
+    "permissions": ["activeTab"]
+}
